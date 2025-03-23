@@ -17,4 +17,18 @@ mod tests {
         let result = add(6, 3);
         assert_ne!(result, 6);
     }
+
+    #[test]
+    #[should_panic]
+    fn it_works_should_panic() {
+        //let result = add(6, 3);
+        assert_eq!(1, 2);
+    }
+
+    #[test]
+    #[ignore]
+    fn it_works_ignore() {
+        let result = add(6, 3);
+        assert_eq!(result, 9);
+    }
 }
