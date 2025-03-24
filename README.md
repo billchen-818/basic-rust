@@ -7,3 +7,5 @@
 [测试](./doc/test.md)
 
 [泛型](./doc/generics.md)
+
+[trait](./doc/trait.md)
